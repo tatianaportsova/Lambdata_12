@@ -1,5 +1,22 @@
 # Lambdata_12
 
+# Contributing instructions
+
+If you want to contribute to this package...
+
+## Installation
+
+Install from Test PyPi
+
+```sh
+pip install -i https://test.pypi.org/simple/ tt.sova-lambdata-12==0.0.1
+
+#haven't pushed to thereal PyPi though...
+# pip install tt.sova-lambdata-12==0.0.1
+```
+
+## Usage
+
 Using the package from PIPY instructions:
 
 ```py
@@ -36,3 +53,8 @@ An example script, not what people will use when installour package, just an exa
 ```sh
 python my_lambdata/my_script.py
 ```
+
+
+# Test
+
+todo
