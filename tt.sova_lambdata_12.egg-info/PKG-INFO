@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: tt.sova-lambdata-12
+Version: 0.0.1
+Summary: For example purposes
+Home-page: https://github.com/tatianaportsova/Lambdata_12
+Author: Tatiana Portsova
+Author-email: tt.sova@gmail.com
+License: UNKNOWN
+Description: # Lambdata_12
+        
+        Using the package from PIPY instructions:
+        
+        ```py
+        from my_lambdata.my_mod import enlarge
+        
+        enlarge(5) #> 500
+        ```
+        
+        
+        
+        
+        
+        
+        <hr>
+        
+        Contributing instructions.
+        
+        ## Installation
+        
+        ```sh
+        cd path/to/Lambdata_12
+        ```
+        
+        Install package dependencies:
+        
+        ``sh
+        pipenv install
+        ```
+        
+        ## Usage
+        
+        An example script, not what people will use when installour package, just an example:
+        
+        ```sh
+        python my_lambdata/my_script.py
+        ```
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
