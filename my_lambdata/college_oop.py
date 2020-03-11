@@ -29,5 +29,29 @@ class College():
 if __name__ == "__main__":
     college = College("Baruch College", "New York", "NY", "Public") 
     print(college.full_info)
-    #college2 = College("Yankees", "New York")
+    #college2 = College("Columbia University", "New York")
     #print(college2.full_name)
+
+
+    colleges_dict = [
+        {"city": "New York", "state": "NY",
+        "funding": "Private, non-profit", "name": "Columbia University"},
+        {"city": "New York", "state": "NY",
+        "funding": "Private, non-profit", "name": "New York University"},
+        {"city": "New York", "state": "NY",
+        "funding": "Private, non-profit", "name": "Barnard College"},
+        {"city": "New York", "state": "NY",
+        "funding": "Public", "name": "Baruch College"},
+        {"city": "New York", "state": "NY",
+        "funding": "Private, non-profit", "name": "Fordham University"}
+    ]
+    
+    for college_d in colleges_dict:
+        college == College(college_d["name"],college_d["city"],
+                           college_d["state"],college_d["funding"])
+        print(college.name)
+        print(college.funding)
+        print(college.full_info)
+        print(college.advertise_generically())
+        print("*----*----*")
+
