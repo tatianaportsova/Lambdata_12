@@ -17,12 +17,12 @@ x = 5
 print("NUMBER", x)
 print("ENLARGED NUMBER", enlarge(x))  # invoking our function!!
 
-df = pandas.read_csv('https://raw.githubusercontent.com/ryanleeallred/datasets/master/Ames%20Housing%20Data/train.csv')
+df1 = pandas.read_csv('https://raw.githubusercontent.com/ryanleeallred/datasets/master/Ames%20Housing%20Data/train.csv')
 
-df['LotFrontage'].head(5)
+df1['LotFrontage'].head(5)
 
 # Split train into train & val
-train, test = train_test_split(df, train_size=0.85, test_size=0.15,
+train, test = train_test_split(df1, train_size=0.85, test_size=0.15,
                                random_state=42)
 train, val = train_test_split(df, train_size=0.80, test_size=0.20,
                               random_state=42)
@@ -30,4 +30,4 @@ train, val = train_test_split(df, train_size=0.80, test_size=0.20,
 train.shape, val.shape, test.shape
 
 # Check for NaN values in the dataset
-df.isna().sum()
+train.isna().sum()
