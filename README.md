@@ -54,7 +54,18 @@ An example script, not what people will use when installour package, just an exa
 python my_lambdata/my_script.py
 ```
 
+# What the project does
+'''
+The project shows basic examples of what the python class is, subclass. In 'test' folder the code to test the classes can be found.
+'''
 
-# Test
+# Why the project is useful
+'''
+The project can be useful as a reference document for someone who need's to buld a class and run the test code.
+'''
 
-todo
+# How users can get started with the project
+
+# Where users can get help with your project
+
+# Who maintains and contributes to the project

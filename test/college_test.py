@@ -28,7 +28,10 @@ class EDU(unittest.TestCase):
             self.assertTrue(college.name == college_dicts[idx]['name'])
 
             # assert there are string values in the "name" col
-            self.assertTrue(isinstance(college.name[3], str))
+            self.assertTrue(isinstance(college.name[3], "Baruch College"))
+
+            # assert there are string values in the "name" col
+            self.assertEquals(isinstance(college.name[3], str))
             
 
             # assert specific corresponding values in for example the first row
