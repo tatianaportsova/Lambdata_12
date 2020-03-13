@@ -2,6 +2,7 @@
 # colleges (OOP)
 
 class College():
+
     def __init__(self, name, city, state, funding):
         self.name = name
         self.city = city
