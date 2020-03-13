@@ -22,21 +22,13 @@ class EDU(unittest.TestCase):
         for idx, college_dict in enumerate(college_dicts):
             college = College(college_dict["name"], college_dict["city"], college_dict["state"],college_dict["funding"])
             
-            # self.assertTrue("name" not in college.
-
-            # assert there exists a name column
+        
+            # assert there exists a "name" index in college dictionaries
             self.assertTrue(college.name == college_dicts[idx]['name'])
 
-            # assert there are string values in the "name" col
-            self.assertTrue(isinstance(college.name[3], "Baruch College"))
-
-            # assert there are string values in the "name" col
+            # assert there are string values in the "name" index
             self.assertEquals(isinstance(college.name[3], str))
-            
-
-            # assert specific corresponding values in for example the first row
-            # self.assertEqual(college["city"][0], "New York")
-            # self.assertEqual(college["name"][0], "Columbia University")
+        
 
 
 

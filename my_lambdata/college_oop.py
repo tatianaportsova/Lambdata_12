@@ -1,9 +1,9 @@
-
+import pandas
 # colleges (OOP)
 
 class College():
 
-    def __init__(self, name, city, state, funding):
+    def __init__(self, name=None, city=None, state=None, funding=None):
         self.name = name
         self.city = city
         self.state = state
